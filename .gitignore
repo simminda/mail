@@ -1,0 +1,36 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django-specific
+db.sqlite3
+*.sqlite3
+*.log
+*.pot
+*.pyc
+.DS_Store
+
+# Environment files
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Node.js (if using npm for frontend assets)
+node_modules/
+
+# IDE and editor-specific
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
