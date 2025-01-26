@@ -27,6 +27,8 @@ This project is a single-page email client implemented using **Django**, **JavaS
     - White background if unread.
     - Gray background if read.
 
+![Inbox](screenshots/Inbox.png)
+
 ### 3. **View Email**
 - Users can click on an email to view its content.
 - A `GET` request is made to `/emails/<email_id>` to fetch the email details.
@@ -38,6 +40,8 @@ This project is a single-page email client implemented using **Django**, **JavaS
   - Body
 - Emails are marked as read once viewed (via a `PUT` request).
 - Appropriate views are dynamically shown and hidden as needed.
+
+![Email screen](screenshots/mail.png)
 
 ### 4. **Archive and Unarchive**
 - Users can:
@@ -53,11 +57,9 @@ This project is a single-page email client implemented using **Django**, **JavaS
   - Pre-fills the form with:
     - **Recipient:** Set to the sender of the original email.
     - **Subject:** Preceded with `Re: ` unless it already begins with `Re:`.
-    - **Body:** Prefilled with a line like:
-      ```
-      On Jan 1 2020, 12:00 AM foo@example.com wrote:
-      [Original email body]
-      ```
+    - **Body:** Reply body prefilled with previous email and timestamp
+
+![Reply Screen](screenshots/compose.png)
 
 ---
 
