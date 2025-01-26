@@ -26,7 +26,7 @@ This project is a single-page email client implemented using **Django**, **JavaS
   - Emails appear with:
     - White background if unread.
     - Gray background if read.
-
+---
 ![Inbox](screenshots/Inbox.png)
 
 ### 3. **View Email**
@@ -40,7 +40,7 @@ This project is a single-page email client implemented using **Django**, **JavaS
   - Body
 - Emails are marked as read once viewed (via a `PUT` request).
 - Appropriate views are dynamically shown and hidden as needed.
-
+---
 ![Email screen](screenshots/mail.png)
 
 ### 4. **Archive and Unarchive**
@@ -58,7 +58,7 @@ This project is a single-page email client implemented using **Django**, **JavaS
     - **Recipient:** Set to the sender of the original email.
     - **Subject:** Preceded with `Re: ` unless it already begins with `Re:`.
     - **Body:** Reply body prefilled with previous email and timestamp
-
+---
 ![Reply Screen](screenshots/compose.png)
 
 ---
